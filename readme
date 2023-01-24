@@ -15,7 +15,7 @@ The files present are:
         - logging
         - numpy
         - matplotlib
-    It will interface with either the Python or C++ lattice simulations.
+        It will interface with either the Python or C++ lattice simulations.
 
     It contains many named inputs from the command line. Each input is
     made with [word]:[value] where value is (case insensitive for boolean values) 
@@ -39,7 +39,7 @@ The files present are:
                               (note: this is exact in the C++ implementation,
                               but only the average in the Python implementation)
     dir_out         data      name of output directory
-    plots           False     option to distplay E and M plots after finishign running
+    plots           False     option to distplay E and M plots after finishing running
                               note: note available for multiprocess
     print_inp       False     echo all of the input options to the command line
     use_cpp         True      use C++ implementation; will switch off if the
@@ -82,7 +82,7 @@ To be done:
        These algorithms overcome a large degree of the critical slowing that
        occures as the lattice approaches critical temperature, and would 
        allow some much better measurements.
-
+    
     2. The spin correlations are calculated only for the final step. It
        would likely be *much* better to caclulate the avege and std of
        these values, as is done for the E and M parameter.
